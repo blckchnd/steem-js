@@ -305,12 +305,12 @@ export default [
       "params": ["voter"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_content",
       "params": ["author", "permlink"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_content_replies",
       "params": ["author", "permlink"]
     },
