@@ -39,67 +39,67 @@ export default [
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_trending",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_trending30",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_created",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_active",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_cashout",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_payout",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_votes",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_children",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_hot",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_feed",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_blog",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_comments",
       "params": ["query"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_promoted",
       "params": ["query"]
     },
@@ -315,7 +315,7 @@ export default [
       "params": ["author", "permlink"]
     },
     {
-      "api": "database_api",
+      "api": "social_network",
       "method": "get_discussions_by_author_before_date",
       "params": ["author", "startPermlink", "beforeDate", "limit"]
     },
