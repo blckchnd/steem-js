@@ -19,7 +19,7 @@ export default [
       "method": "cancel_all_subscriptions"
     },
     {
-      "api": "database_api",
+      "api": "tags",
       "method": "get_trending_tags",
       "params": ["afterTag", "limit"]
     },
@@ -39,67 +39,67 @@ export default [
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_trending",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_trending30",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_created",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_active",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_cashout",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_payout",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_votes",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_children",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_hot",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_feed",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_blog",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_comments",
       "params": ["query"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_promoted",
       "params": ["query"]
     },
@@ -156,15 +156,15 @@ export default [
       "method": "get_chain_properties"
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_feed_history"
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_current_median_history_price"
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_witness_schedule"
     },
     {
@@ -210,7 +210,7 @@ export default [
       "params": ["accountName"]
     },
     {
-      "api": "database_api",
+      "api": "account_history",
       "method": "get_account_history",
       "params": ["account", "from", "limit"]
     },
@@ -315,7 +315,7 @@ export default [
       "params": ["author", "permlink"]
     },
     {
-      "api": "social_network",
+      "api": "tags",
       "method": "get_discussions_by_author_before_date",
       "params": ["author", "startPermlink", "beforeDate", "limit"]
     },
@@ -325,35 +325,35 @@ export default [
       "params": ["startAuthor", "startPermlink", "limit"]
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_witnesses",
       "params": ["witnessIds"]
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_witness_by_account",
       "params": ["accountName"]
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_witnesses_by_vote",
       "params": ["from", "limit"]
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "lookup_witness_accounts",
       "params": ["lowerBoundName", "limit"]
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_witness_count"
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_active_witnesses"
     },
     {
-      "api": "database_api",
+      "api": "witness_api",
       "method": "get_miner_queue"
     },
     {
