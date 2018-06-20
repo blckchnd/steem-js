@@ -11,11 +11,11 @@ build/Release
 node_modules
 .tern-port
 
-dist/steem-tests.min.js*
+#dist/steem-tests.min.js*
 # node-dist
 .tern-port
 .envrc
 .idea
 .save
-lib
-dist
+#lib
+#dist
